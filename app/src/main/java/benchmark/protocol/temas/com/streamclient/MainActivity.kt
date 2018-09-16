@@ -7,6 +7,20 @@ import com.temas.protocols.benchmark.udp.UdpClient
 
 class MainActivity : AppCompatActivity() {
 
+    /**
+     * TODO:
+     *
+     * 1. Client/Server:
+     *  1.1 Client send buffer controlled by a setter
+     *
+     *
+     * 2. UI:
+     *  2.1 Lag time graph (top screen)
+     *  2.2 Data size controller(packets/sec, KB/sec)
+     *
+
+     */
+
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d("streamClient","Start Activity");
         super.onCreate(savedInstanceState)
